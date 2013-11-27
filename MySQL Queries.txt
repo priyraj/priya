@@ -1,0 +1,13 @@
+SELECT * FROM Car LEFT JOIN driver ON(car.dr_id=driver.dr_id)
+
+SELECT * FROM Car RIGHT JOIN driver ON(car.dr_id=driver.dr_id)
+
+
+Left Join
+1.It Returns all the rows from the Left Table with the Matching rows from the Right Table
+2.It there are no columns matching in the Right Table,it returns NULL Values.
+
+Right Join
+1.It Returns all the rows from the Right Table with the Matching rows from the Left Table
+2.It there are no columns matching in the Left Table,it returns NULL Values.
+
